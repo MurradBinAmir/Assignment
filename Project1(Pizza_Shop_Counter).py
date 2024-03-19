@@ -21,11 +21,6 @@ BURGERS     |   PRICE  |            |         |
 ZINGER      |   200    |            |         |               
 PATTY       |   200    |            |         |                
 '''
-# print(menue)
-# lines = menue.splitlines()
-# for line in lines:
-#     list = line.split()
-# print(lines)
 
 
 lines_list = []
@@ -36,15 +31,15 @@ for line in menue.splitlines():
     lines_list.append(line.split())
 print(lines_list[5][0])
 
+
 # Flavours
 F,C,T,A=lines_list[7][0],lines_list[8][0],lines_list[9][0],lines_list[10][0]
+# Size
 L,M,S,=lines_list[5][6],lines_list[5][4],lines_list[5][2]
+
 pz =input(f"Select the Flavour (From a,b,c,d):\na){F}\nb){C}\nc){T}\nd){A}\n")
-
-
 match pz:
-    
-    
+      
     case 'a':
         print(f"You selected {F} flavor.")
         sz =input(f"\nSelect the Size (From a,b,c):\na){S}\nb){M}\nc){L}\n")
