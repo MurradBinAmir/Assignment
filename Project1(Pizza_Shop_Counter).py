@@ -1,3 +1,7 @@
+#"As I learn about functions and object-oriented programming (OOP),
+# I can change this code to make it better. 
+# This usually means making it shorter and more useful."
+
 menue = '''
                      Welcome
                      -------
